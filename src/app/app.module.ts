@@ -13,11 +13,8 @@ import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   imports:      
-  [ BrowserModule, 
-    FormsModule, 
-    MatSliderModule, 
-    MatCardModule, 
-    MatInputModule, 
+    [ BrowserModule, FormsModule, 
+    MatSliderModule, MatCardModule, MatInputModule, 
     MatGridListModule,
     BrowserAnimationsModule,
     MatToolbarModule,

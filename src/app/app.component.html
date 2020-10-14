@@ -1,32 +1,29 @@
 <div>
-    <mat-toolbar class="Barra">
-       <div class="example-button-row">
+  <mat-toolbar class="Barra">
+    <div class="example-button-row">
          <!--<img src="https://drive.google.com/file/d/1K7xuGKdxVs4P7tfd26gU05WwuLS3ayhK/view?usp=sharing">-->
          <img src="/app/assets/images/logo_seat_white.png">
-         <p>Gestión piezas EEMM</p>
-         
-         <button mat-button>Seg</button>
-         <button mat-button color="primary">Primary</button>
-         <button mat-button color="accent">Accent</button>
-         <button mat-button color="warn">Warn</button>
+         <hello name="{{ name }}"></hello>
+         <button mat-button>Segmento 1</button>
+         <button mat-button>Segmento 2</button>
+         <button mat-button>Segmento 3</button>
+         <button mat-button>T4 vs T5</button>
          <button mat-button disabled>Disabled</button>
          <a mat-button href="https://www.google.com/" target="_blank">Link</a>
-  </div>
-    </mat-toolbar>  
+    </div>
+  </mat-toolbar>  
 </div>
 
-<hello name="{{ name }}"></hello>
+
 
 <p>
   Start editing to see some magic happen :)
 </p>
 
   <div fxLayout.xs="column" fxLayout="row wrap" fxLayoutGap="10px" ngClass.gt-xs="ml-10">
-    <mat-card class="Segmentos">
+    <mat-card class="Card-Segmentos">
       <mat-card fxFlex.sm="0 1 calc(50%-10px)" fxFlex.md="0 1 calc(33%-10px)" fxFlex.gt-md="0 1 calc(25%-10px)">
-        <mat-card-header>Segmento 1
-        <mat-card-title>Segmento 1</mat-card-title></mat-card-header>
-        <!--<img mat-card-image src="https://kakiseni.org/wp-content/uploads/2018/03/250X250.png" class="image">-->
+        <mat-card-title>Segmento 1</mat-card-title>
         <mat-card-content>Primary card content. Intended for blocks of text</mat-card-content>
         <mat-card-actions>Container for buttons at the bottom of the card</mat-card-actions>
       </mat-card>

@@ -40,9 +40,9 @@ mat-card {
 mat-card-header{
   background-color:#f9aa33 !important;
 }
-.Segmentos{
+.Card-Segmentos{
   background-color: #ff6600;
-  padding: 15px;
+  padding: 1px;
 }
 .Barra{
   height: 100%; 
