@@ -25,34 +25,20 @@ p {
   width: 200px;
 } */
 
-mat-card {
-  margin-bottom: 10px;
-}
-
-.mr-10 {
-  margin-right: 10px;
-}
-
-.ml-10 {
-  margin-left: 10px;
-}
-
 mat-card-header{
   background-color:#ff6600 !important;
 }
-.Card-Segmentos{
-  background-color: #ff6600;
-  padding: 1px;
-}
+
 .Barra{
   height: 100%; 
   background-color:#ff6600;
 }
-
+.mat-card-footer{
+  background-color: red;
+}
 .content { 
   padding: 16px; 
 }
-
 .content > mat-card { 
   width: 200px; 
 }

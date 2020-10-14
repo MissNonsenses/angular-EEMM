@@ -10,10 +10,10 @@ import { MatInputModule } from "@angular/material/input";
 import { MatGridListModule } from "@angular/material/grid-list";
 import { MatToolbarModule } from "@angular/material/toolbar";
 import { MatButtonModule } from "@angular/material/button";
+import { FlexLayoutModule } from "@angular/flex-layout";
 
 @NgModule({
-  imports: [ BrowserModule, FormsModule, MatSliderModule, MatCardModule, MatInputModule, MatGridListModule, 
-    BrowserAnimationsModule,MatToolbarModule,MatButtonModule
+  imports: [ BrowserModule, FormsModule, MatSliderModule, MatCardModule, MatInputModule, MatGridListModule, BrowserAnimationsModule,MatToolbarModule, MatButtonModule, FlexLayoutModule
   ],
   declarations: [AppComponent, HelloComponent],
   bootstrap: [AppComponent]

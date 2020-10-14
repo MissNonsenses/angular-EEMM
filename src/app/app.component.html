@@ -15,50 +15,20 @@
 </div>
 
 <div class="content" fxLayout="row wrap" fxLayoutGap="16px grid">
-  <div fxFlex="25%" fxFlex.xs="100%" fxFlex.sm="33%" *ngFor="let num of [1,2,3,4,5,6,7]">
+  <div fxFlex="25%" fxFlex.xs="100%" fxFlex.sm="33%" *ngFor="let num of [1,2,3]">
     <mat-card class="mat-elevation-z4" >
       <mat-card-header>
-        <mat-card-title>Mountains {{num}}</mat-card-title>
+        <mat-card-title>Segmento{{num}}</mat-card-title>
       </mat-card-header>
       <!--<img mat-card-image src="./../assets/images/mountains.jpg">-->
-      <mat-card-content>
-        <p>
-          The Himalayas is a mountain range in Asia.
-        </p>
-      </mat-card-content>
-      <mat-card-actions>
-        <button mat-button>LIKE</button>
-        <button mat-button>SHARE</button>
-      </mat-card-actions>
+      <mat-card-footer>
+        <mat-card-actions>
+          <button mat-button>ENTRAR</button>
+        </mat-card-actions>
+      </mat-card-footer>
     </mat-card>
   </div>
 </div>
 
 
-  <div fxLayout.xs="column" fxLayout="row wrap" fxLayoutGap="10px" ngClass.gt-xs="ml-10">
-    <mat-card class="Card-Segmentos">
-      <mat-card fxFlex.sm="0 1 calc(50%-10px)" fxFlex.md="0 1 calc(33%-10px)" fxFlex.gt-md="0 1 calc(25%-10px)">
-        <mat-card-title>Segmento 1</mat-card-title>
-        <mat-card-content>Primary card content. Intended for blocks of text</mat-card-content>
-        <mat-card-actions>Container for buttons at the bottom of the card</mat-card-actions>
-      </mat-card>
-
-      <mat-card fxFlex.sm="0 1 calc(50%-10px)" fxFlex.md="0 1 calc(33%-10px)" fxFlex.gt-md="0 1 calc(25%-10px)">
-        <mat-card-title>Segmento 2</mat-card-title>
-        <!--<img mat-card-image src="https://kakiseni.org/wp-content/uploads/2018/03/250X250.png" class="image">-->
-        <mat-card-content>Primary card content. Intended for blocks of text</mat-card-content>
-        <mat-card-actions>Container for buttons at the bottom of the card</mat-card-actions>
-      </mat-card>
-    
-      <mat-card fxFlex.sm="0 1 calc(50%-10px)" fxFlex.md="0 1 calc(33%-10px)" fxFlex.gt-md="0 1 calc(25%-10px)">
-        <mat-card-title>Segmento 3</mat-card-title>
-        <!--<img mat-card-image src="https://kakiseni.org/wp-content/uploads/2018/03/250X250.png" class="image">-->
-        <mat-card-content>Primary card content. Intended for blocks of text</mat-card-content>
-        <mat-card-actions>Container for buttons at the bottom of the card</mat-card-actions>
-      </mat-card>
-    </mat-card>
-  </div>
-
-<!-- <mat-card class="Modulo"></mat-card> -->
-
-<!-- <mat-card class="Modulo"></mat-card>-->
+  
