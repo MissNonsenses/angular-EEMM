@@ -27,6 +27,9 @@ p {
 
 mat-card-header{
   background-color:#ff6600 !important;
+  height: 50px;
+  padding-top: 10px;
+  font-size: 20px;
 }
 
 .Barra{
@@ -34,8 +37,15 @@ mat-card-header{
   background-color:#ff6600;
 }
 .mat-card-footer{
-  background-color: red;
-}
+  /*background-color: red;*/
+   
+   
+  text-align: center;
+ }
+
+ .Card-button{
+   font-size: 20px;
+ }
 .content { 
   padding: 16px; 
 }
