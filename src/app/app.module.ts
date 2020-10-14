@@ -12,16 +12,8 @@ import { MatToolbarModule } from "@angular/material/toolbar";
 import { MatButtonModule } from "@angular/material/button";
 
 @NgModule({
-  imports: [
-    BrowserModule,
-    FormsModule,
-    MatSliderModule,
-    MatCardModule,
-    MatInputModule,
-    MatGridListModule,
-    BrowserAnimationsModule,
-    MatToolbarModule,
-    MatButtonModule
+  imports: [ BrowserModule, FormsModule, MatSliderModule, MatCardModule, MatInputModule, MatGridListModule, 
+    BrowserAnimationsModule,MatToolbarModule,MatButtonModule
   ],
   declarations: [AppComponent, HelloComponent],
   bootstrap: [AppComponent]
