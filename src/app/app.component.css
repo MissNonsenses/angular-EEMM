@@ -1,0 +1,50 @@
+p {
+  font-family: 'Courier New', Courier, monospace;
+ }
+ /*
+.tp-section {
+   display: flex;
+   align-content: center;
+   align-items: center;
+   height: 60px;
+}
+.tp-margin {
+   margin: 30px;
+}
+
+.mat-slider-horizontal {
+   width: 300px;
+}
+.mat-slider-vertical {
+   height: 300px;
+}
+
+.Modulo{
+  background-color:#f9aa33; 
+  height: 100px;
+  width: 200px;
+} */
+
+mat-card {
+  margin-bottom: 10px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+mat-card-header{
+  background-color:#f9aa33 !important;
+}
+.Segmentos{
+  background-color: #ff6600;
+  padding: 15px;
+}
+.Barra{
+  height: 100%; 
+  background-color:#ff6600;
+}
