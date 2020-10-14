@@ -38,7 +38,7 @@ mat-card {
 }
 
 mat-card-header{
-  background-color:#f9aa33 !important;
+  background-color:#ff6600 !important;
 }
 .Card-Segmentos{
   background-color: #ff6600;
@@ -47,4 +47,12 @@ mat-card-header{
 .Barra{
   height: 100%; 
   background-color:#ff6600;
+}
+
+.content { 
+  padding: 16px; 
+}
+
+.content > mat-card { 
+  width: 200px; 
 }

@@ -2,7 +2,7 @@
   <mat-toolbar class="Barra">
     <div class="example-button-row">
          <!--<img src="https://drive.google.com/file/d/1K7xuGKdxVs4P7tfd26gU05WwuLS3ayhK/view?usp=sharing">-->
-         <img src="/app/assets/images/logo_seat_white.png">
+         <img src="./../app/assets/images/logo_seat_white.png">
          <hello name="{{ name }}"></hello>
          <button mat-button>Segmento 1</button>
          <button mat-button>Segmento 2</button>
@@ -19,6 +19,27 @@
 <p>
   Start editing to see some magic happen :)
 </p>
+
+<div class="content" fxLayout="row wrap" fxLayoutGap="16px grid">
+  <div fxFlex="25%" fxFlex.xs="100%" fxFlex.sm="33%" *ngFor="let num of [1,2,3,4,5,6,7]">
+    <mat-card class="mat-elevation-z4" >
+      <mat-card-header>
+        <mat-card-title>Mountains {{num}}</mat-card-title>
+      </mat-card-header>
+      <!--<img mat-card-image src="./../assets/images/mountains.jpg">-->
+      <mat-card-content>
+        <p>
+          The Himalayas is a mountain range in Asia.
+        </p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button>LIKE</button>
+        <button mat-button>SHARE</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>
+
 
   <div fxLayout.xs="column" fxLayout="row wrap" fxLayoutGap="10px" ngClass.gt-xs="ml-10">
     <mat-card class="Card-Segmentos">
