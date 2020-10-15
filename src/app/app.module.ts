@@ -32,7 +32,7 @@ import { MatSelectModule } from '@angular/material/select';
     MatFormFieldModule,
     MatDialogModule,
     MatSelectModule, ],
-  declarations: [ AppComponent, HelloComponent, ],
+  declarations: [AppComponent, HelloComponent,],
   bootstrap: [ AppComponent ]
 })
 export class AppModule {}
