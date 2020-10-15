@@ -36,15 +36,24 @@
       <input matInput placeholder="Nº Orden" required>
   </mat-form-field>
   
-  <mat-form-field appearance="fill" [color]="colorControl.value">
+
+  <mat-form-field appearance="fill">
     <mat-label>Modelo</mat-label>
-    <mat-select [formControl]="colorControl">
-      <mat-option value="primary">SE-380</mat-option>
-      <mat-option value="accent">SE-382</mat-option>
-      <mat-option value="warn">SE-316</mat-option>
+    <mat-select>
+      <mat-option >-- None --</mat-option>
+      <mat-option value="option">SE-380</mat-option>
+      <mat-option value="option">SE-382</mat-option>
+      <mat-option value="option">SE-316</mat-option>
     </mat-select>
   </mat-form-field>
 
+  <mat-form-field appearance="fill">  
+    <mat-label>Pieza</mat-label>
+    <mat-select>
+        <mat-option>-- None --</mat-option>
+        <mat-option value="option">P.A.I.</mat-option>
+    </mat-select>      
+  </mat-form-field>
   
 
    <mat-form-field appearance="fill" [color]="colorControl.value">
@@ -55,6 +64,9 @@
   </mat-form-field>
 
 </form>
+
+ <!--
+        [floatLabel]="floatLabelControl.value"-->
 
 
 <!-- <div class="example-container">

@@ -18,9 +18,22 @@ import { MatSelectModule } from '@angular/material/select';
 
 
 @NgModule({
-  imports: [ ReactiveFormsModule, BrowserModule, FormsModule, MatCardModule, MatInputModule, MatGridListModule, BrowserAnimationsModule,MatToolbarModule, MatButtonModule, FlexLayoutModule, MatFormFieldModule,MatDialogModule,MatSelectModule, ],
-  declarations: [AppComponent, HelloComponent, ],
-  bootstrap: [AppComponent]
+  imports: [ 
+    ReactiveFormsModule,
+    BrowserModule, 
+    FormsModule, 
+    MatCardModule, 
+    MatInputModule, 
+    MatGridListModule, 
+    BrowserAnimationsModule,
+    MatToolbarModule, 
+    MatButtonModule, 
+    FlexLayoutModule,  
+    MatFormFieldModule,
+    MatDialogModule,
+    MatSelectModule, ],
+  declarations: [ AppComponent, HelloComponent, ],
+  bootstrap: [ AppComponent ]
 })
 export class AppModule {}
 
