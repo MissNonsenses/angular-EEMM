@@ -15,7 +15,7 @@ import { FlexLayoutModule } from "@angular/flex-layout";
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatDialogModule } from '@angular/material/dialog'; 
 import { MatSelectModule } from '@angular/material/select';
-
+import { MatDatepickerModule } from '@angular/material/datepicker'; 
 
 @NgModule({
   imports: [ 
@@ -31,7 +31,8 @@ import { MatSelectModule } from '@angular/material/select';
     FlexLayoutModule,  
     MatFormFieldModule,
     MatDialogModule,
-    MatSelectModule, ],
+    MatSelectModule,
+    MatDatepickerModule ],
   declarations: [AppComponent, HelloComponent,],
   bootstrap: [ AppComponent ]
 })

@@ -2,9 +2,17 @@ p {
   font-family: 'Courier New', Courier, monospace;
 }
  
-.example-container .mat-form-field + .mat-form-field {
+.Segmentos{
   margin-left: 10px;
 }
+
+.container .mat-form-field {
+  margin-left: 25px;
+}
+
+.Texto{
+  margin-left: 25px;
+} 
 
 mat-card-header{
   background-color:#ff6600 !important;
